@@ -8,4 +8,7 @@ const colorePreferito = prompt('Qual è il tuo colore preferito?');
 console.log(colorePreferito);
 
 
-alert(`${nomeUtente} ${cognomeUtente} il tuo colore preferito è ${colorePreferito}`);
+alert(`${nomeUtente} ${cognomeUtente} il tuo colore preferito è il ${colorePreferito} 22`);
+
+const spanNomeUtente = document.getElementById('userName');
+console.log(userName);
