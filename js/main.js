@@ -13,4 +13,7 @@ alert(`${nomeUtente} ${cognomeUtente} il tuo colore preferito è il ${colorePref
 const spanNomeUtente = document.getElementById('userName');
 console.log(userName);
 
-spanNomeUtente.innerHTML = 'nomecognomecolorepreferito22'
+spanNomeUtente.innerHTML = `${nomeUtente} ${cognomeUtente} il tuo colore preferito è il ${colorePreferito}`; 
+
+console.dir(spanNomeUtente);
+
